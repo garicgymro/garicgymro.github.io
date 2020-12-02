@@ -139,7 +139,7 @@
 
 	#navPanel
 	{
-		background: #181818 url(images/overlay.png) repeat;
+		background: #D3D3D3 url(images/overlay.png) repeat;
 	}
 
 		#navPanel .link
@@ -157,6 +157,11 @@
 			#navPanel .link:first-child
 			{
 				border-top: 0;
+			}
+
+			#navPanel li.active a
+			{
+				font-weight: bold;
 			}
 			
 			#navPanel .link.depth-0
@@ -187,7 +192,7 @@
 
 	#logo
 	{
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 	
 		#logo h1
@@ -211,9 +216,9 @@
 			display: block;
 			padding-top: 1em;
 			letter-spacing: 1px;
-			text-transform: uppercase;
+			/*text-transform: uppercase;*/
 			font-size: 1em;
-			color: #8e8588;
+			color: #000000;
 		}			
 	
 	#nav
@@ -227,7 +232,7 @@
 
 	#main
 	{
-		padding: 4em 0em 1em 0em;
+		padding: 0em 0em 1em 0em;
 	}
 
 	#content
@@ -268,7 +273,7 @@
 	
 	#footer
 	{
-		padding: 4em 0em 2em 0em;
+		padding: 0em 0em 2em 0em;
 	}
 	
 	#footer h2

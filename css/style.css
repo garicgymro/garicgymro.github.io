@@ -18,9 +18,8 @@
 	body,input,textarea,select
 	{
 		font-family: 'Oxygen', sans-serif;
-		/*font-family: 'Garamond', serif;*/
-		font-size: 13pt;
 		line-height: 2em;
+		font-size: 13em;
 	}
 	
 	
@@ -266,11 +265,32 @@
 				padding: 0.50em 0em;
 			}
 
+			ul.indentdotstyle
+			{list-style-type: circle;
+				padding: 0.8em 0em;
+				line-height: 1.8em;
+				list-style-position: outside;
+				padding-left: 3em;
+			}
+
 			ul.dotstyle
 			{list-style-type: circle;
 				padding: 0.80em 0em;
-				line-height: 1.8em;
+				line-height: 1.5em;
+				/*margin-top: 2em;*/
 			}
+
+			ul.pubstyle
+			{list-style-type: circle;
+				padding: 0.2em 0em;
+				line-height: 1.5em;
+				/*margin-top: 1em;*/
+			}
+
+			ul.pubstyle li
+			{margin-top: 1em;
+			}
+
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -346,9 +366,10 @@
 	#copyright
 	{
 		position: relative;
-		padding: 3em 0em;
+		padding: 0em 0em;
 		text-align: center;
-		color: rgba(255,255,255,.2);
+		/*color: rgba(255,255,255,.3);*/
+		color: darkgray;
 	}
 	
 	#copyright .container
@@ -358,5 +379,6 @@
 	#copyright a
 	{
 		text-decoration: none;
-		color: rgba(255,255,255,.3);
+		/*color: rgba(255,255,255,.3);*/
+		color: darkgray;
 	}		
