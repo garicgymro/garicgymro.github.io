@@ -64,6 +64,11 @@
 		.\-2u { margin-left: 16.6666666667% }
 		.\-1u { margin-left: 8.3333333333% }
 
+		.rightnote {
+    position: absolute;
+    right: 0;
+}
+
 		.row > * {
 			padding: 50px 0 0 50px;
 			float: left;
