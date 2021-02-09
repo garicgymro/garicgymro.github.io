@@ -114,6 +114,8 @@
 			display: block;
 			/*text-transform: uppercase;*/
 		}
+
+
 		
 	footer
 	{
@@ -315,6 +317,27 @@
 		{
 			margin: 0;
 		}
+
+	#headerKynaz
+	{
+		position: relative;
+		background: #ddd url(../images/kynaz.png) no-repeat center;
+		background-size: cover;
+	}
+
+	#logo
+	{
+	}
+	
+	#nav
+	{
+	}
+
+		#nav ul
+		{
+			margin: 0;
+		}
+
 	
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -354,10 +377,7 @@
 		color: rgba(255,255,255,.4);
 	}
 	
-	#footer header h2
-	{
-		color: #FFF;
-	}
+
 	
 /*********************************************************************************/
 /* Copyright                                                                     */
