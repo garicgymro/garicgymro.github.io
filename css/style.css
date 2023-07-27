@@ -102,6 +102,9 @@
 	header
 	{
 	}
+
+
+
 	
 		header h2
 		{
@@ -183,6 +186,16 @@
 		}
 
 	/* Images */
+
+	#onhover {
+  display: none;
+}
+#surround:hover span[id="initial"] {
+  display: none;
+}
+#surround:hover span[id="onhover"] {
+  display: block;
+}
 
 		.image
 		{
