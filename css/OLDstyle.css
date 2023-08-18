@@ -33,34 +33,6 @@
 		height: 100%;
 	}
 
-
-    .card {
-        width: 500px;
-        height: 150px;
-        position: relative;
-        display: inline-block;
-    }
-    .card .img-under {
-        width: 300px;
-        display: inline;
-        position: relative;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .card .img-top {
-        width: 300px;
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 99;
-    }
-    .card:hover .img-top {
-        display: inline;
-    }
-
-
 	h1,h2,h3,h4,h5,h6
 	{
 		font-weight: bold;
