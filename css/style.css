@@ -41,7 +41,7 @@
         display: inline-block;
     }
     .card .img-under {
-        width: 300px;
+        width: 265px;
         display: inline;
         position: relative;
         top: 0;
@@ -49,7 +49,7 @@
         z-index: 99;
     }
     .card .img-top {
-        width: 300px;
+        width: 265px;
         display: none;
         position: absolute;
         top: 0;
